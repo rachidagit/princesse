@@ -1,0 +1,403 @@
+ 
+/*tete de page image 1 du site*/
+ .section1 {
+   background: url(image1.jpg);
+   width: 100vw;
+   height: 100vh;
+   display: block;
+   text-align: center;
+   position: relative;
+ }
+/*titre 1*/
+ .texthello {
+   display: flex;
+   text-decoration-color: white;
+ }
+
+h3{
+   font-weight: bold;
+   font-size: 40px;
+   color: black;
+   text-align: center;
+   padding:2rem;
+  
+ }
+.titre{
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  padding:2rem;
+  background-color: grey;
+  margin:5px;
+}
+
+
+/*bouton*/
+ .button1 {
+   background-color: black;
+   border-radius: 19%;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+ }
+
+ .button2 {
+   background-color: black;
+   border-radius: 19%;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+ }
+
+ /*les barres */
+
+ .barre1 {
+   position: relative;
+   width: 1000px;
+   height: 60px;
+   background-color: grey;
+   box-shadow: 0 0 0 1px 1px 5px #777777;
+   border-radius: 10px;
+ }
+
+ .competencespan1 {
+   width: 950px;
+   height: 60px;
+   border-radius: 10px;
+   background-color: rgb(35, 115, 134);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    animation-duration:3s;
+    animation-name: salut;
+  
+  }
+ 
+
+ .competence span {
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   font-weight: bold;
+   font-size: 40px;
+ }
+
+ .barre2 {
+   position: relative;
+   width: 800px;
+   height: 60px;
+   background-color: grey;
+   box-shadow: 0 0 0 1px 1px 5px #777777;
+   border-radius: 10px;
+ }
+
+ .competencespan2 {
+   width: 600px;
+   height: 60px;
+   border-radius: 10px;
+   background-color: rgb(35, 115, 134);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   animation-duration:3s;
+    animation-name: salut;
+    
+ }
+
+ .competence span {
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   font-weight: bold;
+   font-size: 40px;
+ }
+
+ .barre3 {
+   position: relative;
+   width: 600px;
+   height: 60px;
+   background-color: grey;
+   box-shadow: 0 0 0 1px 1px 5px #777777;
+   border-radius: 10px;
+ }
+
+ .competencespan3 {
+   width: 400px;
+   height: 60px;
+   border-radius: 10px;
+   background-color: rgb(35, 115, 134);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   animation-duration:3s;
+    animation-name: salut;
+  
+ }
+
+ .competence span {
+   background-color: black;
+   color: white;
+   font-weight: bold;
+   display: flex;
+   justify-content: space-between;
+   font-size: 40px;
+ }
+/*mise en page des section et des icone plus animation des icons*/
+ 
+
+ .section4 i {
+   background-color: rgb(211, 201, 201);
+   color: black;
+   border-radius: 150px;
+   padding: 2rem;
+   transition: background-color, 2s;
+   
+ }
+
+ .section4 i:hover {
+   background-color: black;
+   color: white;
+   border-radius: 150px;
+   padding: 2rem;
+ }
+
+ .section5 i {
+   background-color: rgb(211, 201, 201);
+   color: black;
+   border-radius: 150px;
+   padding: 2rem;
+   transition: background-color, 2s;
+ }
+
+ .section5 i:hover {
+   background-color: black;
+   color: white;
+   border-radius: 150px;
+   padding: 2rem;
+ }
+
+ .section6 i {
+   background-color: rgb(211, 201, 201);
+   color: black;
+   border-radius: 150px;
+   padding: 2rem;
+   transition: background-color, 2s;
+ }
+
+ .section6 i:hover {
+   background-color: black;
+   color: white;
+   border-radius: 150px;
+   padding: 2rem;
+ }
+
+ .section7 i {
+   background-color: rgb(211, 201, 201);
+   color: black;
+   border-radius: 150px;
+   padding: 2rem;
+   transition: background-color, 2s;
+ }
+
+ .section7 i:hover {
+   background-color: black;
+   color: white;
+   border-radius: 150px;
+   padding: 2rem;
+ }
+
+ .section8 i {
+   background-color: rgb(211, 201, 201);
+   color: black;
+   border-radius: 150px;
+   padding: 2rem;
+   transition: background-color, 2s;
+ }
+
+ .section8 i:hover {
+   background-color: black;
+   color: white;
+   border-radius: 150px;
+   padding: 2rem;
+ }
+
+ .section9 i {
+   background-color: rgb(211, 201, 201);
+   color: black;
+   border-radius: 150px;
+   padding: 2rem;
+   transition: background-color, 2s;
+ }
+
+ .section9 i:hover {
+   background-color: black;
+   color: white;
+   border-radius: 150px;
+   padding: 2rem;
+ }
+
+ .section4 {
+   padding: 2rem;
+   background-color: rgb(243, 239, 239);
+   margin: 10px;
+ }
+
+ .section5 {
+   padding: 2rem;
+   background-color: rgb(253, 242, 242);
+   margin: 10px;
+ }
+
+ .section6 {
+   padding: 2rem;
+   background-color: rgb(170, 160, 160);
+   margin: 10px;
+ }
+ .section7 {
+  padding: 2rem;
+  background-color: rgb(170, 160, 160);
+  margin: 10px;
+}
+ .section8 {
+   padding: 2rem;
+   background-color: rgb(252, 239, 239);
+   margin: 10px;
+ }
+ .section9 {
+  padding: 2rem;
+  background-color: rgb(238, 236, 236);
+  margin: 10px;
+}
+
+ 
+ .section10 {
+  padding: 2rem;
+  background-color: white;
+  
+}
+
+.section10 ul {
+  display:flex;
+  list-style-type:none;
+  text-align: center;
+  margin:0;
+  padding:0;
+  
+
+}
+
+li a {
+  color:black;
+  text-decoration: none;
+}
+
+li {    
+  flex: 1;
+  text-align:center;
+  background-color:white;
+}
+
+
+.petitdiv{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin:10px; 
+}
+.divabout{
+  display:flex;
+  flex-direction:column;
+  margin:10px;
+}
+.divbout{
+  display:flex;
+  flex-direction:column;
+}
+
+@keyframes salut {
+  from {
+    margin-right: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+@media (min-width:1050px) {
+  .section2 {
+    display: flex;
+    flex-direction:row;
+  }
+
+  .petitdiv{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+
+}
+
+@keyframes salut {
+  from {
+    margin-right: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .section1:after {
+   position: static;
+   background-color: black;
+   text-decoration: none;
+   text-align: center;
+   position: static;
+ }
+
+ .nav {
+   background-color: black;
+   text-decoration: none;
+   text-align: center;
+   position: fixed;
+ }
+
+ body {
+   font-size: 16px;
+   text-align: center;
+   padding: 10px;
+   background: white;
+   
+ }
+}
