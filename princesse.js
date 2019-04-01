@@ -1,14 +1,19 @@
-(function($){
+function menu() {
+  /*recupere le menu burger  */
+var mon_menu=document.getElementById("burger");
+/*si le menu est invisible */
 
-    /* Quand je clique sur l'icône hamburger je rajoute une classe au body */
-    $('#header__icon').click(function(e){
-        e.preventDefault();
-        $('body').toggleClass('with--sidebar');
-    });
+if(mon_menu.style.visibility == "hidden"){
+/*le rendre visible*/
+    mon_menu.style.visibility = "initial"
+    /*si non le mettre invisible*/
+}else{
+    mon_menu.style.visibility="hidden";
+}
 
-    /* Je veux pouvoir masquer le menu si on clique sur le cache */
-    $('#site-cache').click(function(e){
-        $('body').removeClass('with--sidebar');
-    })
+}
+/*2 eme methode plus courte   
+mon_menu.style.visibility=(mon_menu.style.visibility =="hidden" )
+                            ? "initial":"hiden";*/
 
-});
+
